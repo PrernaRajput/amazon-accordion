@@ -19,7 +19,6 @@ document.body.innerHTML = `
 `;
 require('./js/script');
 
-window.setupAccordion();
 describe('Accordion behavior', () => {
   const titleSection = document.querySelector('.title-section');
   const desc = document.querySelector('.description');
