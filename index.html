@@ -1,14 +1,19 @@
+<!-- Enter your HTML code here -->
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
   <head>
-    <title>Amazon Book Titles</title>
-    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <title>Amazon Books</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel='stylesheet' href='./css/style.css'/>
   </head>
+
   <body>
+    <!-- HTML content goes here -->
     <main class="w-50 mx-auto mt-40 position-relative">
       <div class="carousel-container">
         <h1 class="accordion-title">Amazon Book Titles</h1>
 
+        <!-- Accordion 1 -->
         <div class="accordion" data-testid="1">
           <div
             class="title-section"
@@ -18,8 +23,13 @@
             id="btn-1"
           >
             <div class="title">Responsive Web Design with HTML5 and CSS</div>
-            <div class="expand-icon"></div>
-            <div class="collapse-icon"></div>
+            <div class="expand-icon">
+              <img src="./assets/icons/down-icon.svg" alt="Expand"
+            />
+        </div>
+            <div class="collapse-icon">
+              <img src="./assets/icons/up-icon.svg" alt="Collapse"
+            /></div>
           </div>
           <div
             class="description"
@@ -28,11 +38,20 @@
             aria-labelledby="btn-1"
           >
             Harness the latest capabilities of HTML5 and CSS to create a single
-            UI that works seamlessly across mobile, tablet, and desktop browsers
-            – all without using JavaScript.
+            UI that works flawlessly on mobile phones, tablets, and desktops —
+            plus everything in-between. Key Features Understand what responsive
+            web design is and its significance for modern web development.
+            Explore the latest developments in responsive web design including
+            variable fonts, CSS Scroll Snap, and more. Get to grips with the
+            uses and benefits of the new CSS Grid layout. Book Description
+            Responsive Web Design with HTML5 and CSS, Third Edition is a renewed
+            and extended version of one of the most comprehensive and
+            bestselling books on the latest HTML5 and CSS tools and techniques
+            for responsive web design.
           </div>
         </div>
 
+        <!-- Accordion 2 -->
         <div class="accordion" data-testid="2">
           <div
             class="title-section"
@@ -42,8 +61,12 @@
             id="btn-2"
           >
             <div class="title">Front End Development A Complete Guide</div>
-            <div class="expand-icon"></div>
-            <div class="collapse-icon"></div>
+            <div class="expand-icon">
+              <img src="./assets/icons/down-icon.svg" alt="Expand"
+            /></div>
+            <div class="collapse-icon">
+              <img src="./assets/icons/up-icon.svg" alt="Collapse"
+            /></div>
           </div>
           <div
             class="description"
@@ -53,13 +76,17 @@
           >
             Would you develop a Front End Development Communication Strategy?
             Which models, tools and techniques are necessary? How do you measure
-            improved Front End Development's return on investment and
-            satisfaction? What qualifies as competition? What Front End
-            Development skills will be implemented next with Front End
-            Development?
+            improved Front End Development service perception, and satisfaction?
+            What qualifies as competition? What new services of functionality
+            will be implemented next with Front End Development? Defining,
+            designing, creating, and implementing a process to solve a challenge
+            or meet an objective is the most valuable role. In EVERY group,
+            company, organization and department. Unless you are talking a
+            one-time, single-use project, there should be a process.
           </div>
         </div>
 
+        <!-- Accordion 3 -->
         <div class="accordion" data-testid="3">
           <div
             class="title-section"
@@ -68,9 +95,13 @@
             aria-controls="desc-3"
             id="btn-3"
           >
-            <div class="title">JavaScript and jQuery</div>
-            <div class="expand-icon"></div>
-            <div class="collapse-icon"></div>
+            <div class="title">JavaScript and JQuery</div>
+            <div class="expand-icon">
+              <img src="./assets/icons/down-icon.svg" alt="Expand"
+            /></div>
+            <div class="collapse-icon">
+              <img src="./assets/icons/up-icon.svg" alt="Collapse"
+            /></div>
           </div>
           <div
             class="description"
@@ -78,11 +109,12 @@
             role="region"
             aria-labelledby="btn-3"
           >
-            This full-color book will show you how to make websites interactive
-            and create animations using JavaScript and jQuery.
+            This full-color book will show you how to make your websites more
+            interactive and your interfaces more interesting and intuitive.
           </div>
         </div>
 
+        <!-- Accordion 4 -->
         <div class="accordion" data-testid="4">
           <div
             class="title-section"
@@ -92,8 +124,12 @@
             id="btn-4"
           >
             <div class="title">Creativity in Product Development</div>
-            <div class="expand-icon"></div>
-            <div class="collapse-icon"></div>
+            <div class="expand-icon">
+              <img src="./assets/icons/down-icon.svg" alt="Expand"
+            /></div>
+            <div class="collapse-icon">
+              <img src="./assets/icons/up-icon.svg" alt="Collapse"
+            /></div>
           </div>
           <div
             class="description"
@@ -101,11 +137,20 @@
             role="region"
             aria-labelledby="btn-4"
           >
-            The present book proposes a new descriptive model of the product
-            development process.
+            The present book proposes a new descriptive model, the so-called
+            “Ideation Model (IM)”, of the design process from a dual
+            cognitive-engineering perspective. Partly based on existing models
+            from both fields and previous work performed. The model addresses
+            the issue of modeling the ideation or the front-end phase of the
+            engineering design/product development process. Representing the
+            interface of cognitive psychology and engineering design. Three
+            domains – inspiration, decomposition and integration – and three
+            spaces – problem-space, idea-space, and concept-space – are
+            considered as elements of the model.
           </div>
         </div>
 
+        <!-- Accordion 5 -->
         <div class="accordion" data-testid="5">
           <div
             class="title-section"
@@ -115,8 +160,12 @@
             id="btn-5"
           >
             <div class="title">HTML</div>
-            <div class="expand-icon"></div>
-            <div class="collapse-icon"></div>
+            <div class="expand-icon">
+              <img src="./assets/icons/down-icon.svg" alt="Expand"
+            /></div>
+            <div class="collapse-icon">
+              <img src="./assets/icons/up-icon.svg" alt="Collapse"
+            /></div>
           </div>
           <div
             class="description"
@@ -124,24 +173,32 @@
             role="region"
             aria-labelledby="btn-5"
           >
-            Web development is a basic need of all businesses that want to
-            showcase their presence online.
+            Web development is basic need of all businesses and its helpful for
+            all startups. In this book you will learn how to develop Website
+            body with its all tags. HTML is a type of markup language. It
+            encapsulates, or “marks up” data within HTML tags, which define the
+            data and describe its purpose on the web page. HTML is the
+            foundation language of the web. HTML is a markup language that is
+            used for developing web pages.
           </div>
         </div>
 
+        <!-- Multi-select checkbox -->
         <div class="multi-select">
           <label>
             <input
               type="checkbox"
               class="checkbox"
-              id="multiSelect"
-              data-testid="multiSelect"
+              id="multiselect"
+              data-testid="multiselect"
             />
             Multiple
           </label>
         </div>
       </div>
     </main>
-    <script src="./js/script.js" type="text/javascript"></script>
+
+    <script src="./bundle.js"></script>
+    <script src='./js/script.js'></script>
   </body>
 </html>

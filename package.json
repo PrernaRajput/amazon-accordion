@@ -1,0 +1,23 @@
+{
+  "name": "amazon-accordion",
+  "version": "1.0.0",
+  "description": "Accordion component for Amazon Book Titles using vanilla HTML, CSS, and JS.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --open=./index.html",
+    "test": "jest --env=jsdom"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "jest-environment-jsdom": "^30.0.5",
+    "live-server": "^1.2.2"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}
